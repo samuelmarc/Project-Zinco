@@ -1,10 +1,110 @@
 body {
-    background-color: #b379ff;
-    color: #0b0013;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+  background-color: #b379ff;
+  color: #0b0013;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #cb68f1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.navbar {
+  background-color: #e9ddf6;
+  border-bottom: 2px solid #d297ff;
+}
+
+.navbar a {
+  color: #a348e9 !important;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #9e4fc0 !important;
+}
+
+.card {
+  background-color: #f3ecfa;
+  border: 1px solid #e1c6f5;
+  transition: 0.3s;
+  color: #12021f;
+}
+
+.card:hover {
+  border-color: #cc81f1;
+  transform: scale(1.03);
+}
+
+.btn {
+  background-color: transparent;
+  border: 2px solid #d4a4ec;
+  color: #19002c;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #e6c9f5;
+  color: #4a355a;
+}
+
+.list-group-item {
+  background-color: #f5f0fa;
+  border: 1px solid #e1c6f5;
+  color: #4a355a;
+}
+
+.list-group-item:hover {
+  background-color: #efe2fa;
+  border-color: #d4a4ec;
+}
+
+form {
+  background-color: #f5f0fa;
+  border: 1px solid #e1c6f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(212, 164, 236, 0.3);
+}
+
+form label {
+  color: #7a598a;
+  font-weight: bold;
+}
+
+form input, form select, form textarea {
+  background-color: #ffffff;
+  color: #4a355a;
+  border: 1px solid #d4a4ec;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+  border-color: #c79dd7;
+  outline: none;
+  box-shadow: 0 0 5px #c79dd7;
+}
+
+footer {
+  background-color: #e9ddf6;
+  border-top: 2px solid #d8b8f0;
+  color: #7b27bb;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
   }
+<<<<<<< HEAD
   
   h1, h2, h3 {
     color: #2a0c36;
@@ -110,3 +210,10 @@ body {
     }
   }
   
+=======
+
+  .card {
+    margin-bottom: 15px;
+  }
+}
+>>>>>>> 4a9935d80ae786169f21f7ec7e4739555bfead16
