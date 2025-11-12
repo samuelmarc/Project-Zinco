@@ -33,7 +33,7 @@ h3 {
 }
 .btn {
   color: white;
-  background-color: transparent;
+  background-color: black;
   border: 2px solid red;
   transition: 0.3s;
   font-weight: bold;
@@ -41,7 +41,6 @@ h3 {
 .btn:hover {
   color: white;
   background-color: red;
-  color: #4a355a;
 }
 .list-group-item {
   background-color: #f5f0fa;
@@ -53,7 +52,7 @@ h3 {
   border-color: #f00b0b;
 }
 form {
-  background-color: #f5f0fa;
+  background-color: #dddcdd;
   border: 1px solid #030303;
   padding: 20px;
   border-radius: 8px;
