@@ -1,0 +1,400 @@
+INDEX HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protocolo 45</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <style>
+    
+    .lead {
+      margin: 40px;
+    }
+
+  </style>
+  <body data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Protocolo 45</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="criaturas.html">Criaturas</a></li>
+            <li class="nav-item"><a class="nav-link" href="taticas.html">Táticas</a></li>
+            <li class="nav-item"><a class="nav-link" href="recursos.html">Recursos</a></li>
+            <li class="nav-item"><a class="nav-link active" href="relatar.html">Relatar</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="px-4 py-5 my-5 text-center">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="100"
+        height="200"
+        fill="currentColor"
+        class="bi bi-backpack2"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M4.04 7.43a4 4 0 0 1 7.92 0 .5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14"
+        />
+        <path
+          fill-rule="evenodd"
+          d="M4 9.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm1 .5v3h6v-3h-1v.5a.5.5 0 0 1-1 0V10z"
+        />
+        <path
+          d="M6 2.341V2a2 2 0 1 1 4 0v.341c2.33.824 4 3.047 4 5.659v1.191l1.17.585a1.5 1.5 0 0 1 .83 1.342V13.5a1.5 1.5 0 0 1-1.5 1.5h-1c-.456.607-1.182 1-2 1h-7a2.5 2.5 0 0 1-2-1h-1A1.5 1.5 0 0 1 0 13.5v-2.382a1.5 1.5 0 0 1 .83-1.342L2 9.191V8a6 6 0 0 1 4-5.659M7 2v.083a6 6 0 0 1 2 0V2a1 1 0 0 0-2 0M3 13.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V8A5 5 0 0 0 3 8zm-1-3.19-.724.362a.5.5 0 0 0-.276.447V13.5a.5.5 0 0 0 .5.5H2zm12 0V14h.5a.5.5 0 0 0 .5-.5v-2.382a.5.5 0 0 0-.276-.447L14 10.309Z"
+        />
+      </svg>
+      <h1 class="display-5 fw-bold text-body-emphasis">
+        O Guia da Sobrevivência Pós-Falha
+      </h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Em 2045, o mundo colapsou. A Falha destruiu cidades, apagou a
+          tecnologia e mergulhou a humanidade no caos. Das cinzas surgiram os
+          Vácua — criaturas mutantes e hostis que agora dominam o que restou da
+          Terra. Este guia, criado pelos Comunicadores de Campo, reúne
+          informações vitais para reconhecer, enfrentar e sobreviver a essas
+          ameaças. Aqui, conhecimento é a única arma que ainda resta.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="criaturas.html" class="btn btn-primary btn-lg px-4 gap-3">Criaturas</a>
+          <a href="taticas.html" class="btn btn-outline-secondary btn-lg px-4">Táticas</a>
+          <a href="recursos.html" class="btn btn-outline-secondary btn-lg px-4">Recursos</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="./index.html" class="px-2">Início</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="px-2">Criaturas</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="px-2">Táticas</a>
+        </li>
+        <li class="nav-item">
+          <a href="./recursos.html" class="px-2">Recursos</a>
+        </li>
+        <li class="nav-item">
+          <a href="./relatar.html" class="px-2">Relatar</a>
+        </li>
+      </ul>
+      <p class="text-center">© 2025 Protocolo 45 - Todos os direitos reservados</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+
+RELATAR HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relatar Avistamento | Protocolo 45</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Protocolo 45</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="criaturas.html">Criaturas</a></li>
+          <li class="nav-item"><a class="nav-link" href="taticas.html">Táticas</a></li>
+          <li class="nav-item"><a class="nav-link" href="recursos.html">Recursos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="relatar.html">Relatar</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container my-5">
+    <h1 class="text-center mb-4">📱Relatar Avistamento📱</h1>
+    <p class="text-center mb-5">Preencha o formulário abaixo com as informações do avistamento. Sua colaboração mantém outros sobreviventes seguros.</p>
+
+    <form class="mx-auto" style="max-width: 600px;">
+      <div class="mb-3">
+        <label for="nome" class="form-label">Seu Nome</label>
+        <input type="text" id="nome" class="form-control" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="local" class="form-label">Local do Avistamento</label>
+        <input type="text" id="local" class="form-control" placeholder="Ex: Ruínas do Setor 7" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="tipo" class="form-label">Tipo de Criatura</label>
+        <select id="tipo" class="form-select" required>
+          <option value="">Selecione</option>
+          <option>Vácua Menor</option>
+          <option>Sentinela das Sombras</option>
+          <option>Devastador</option>
+          <option>Eco Carmesim</option>
+          <option>Outros</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="descricao" class="form-label">Descrição do Ocorrido</label>
+        <textarea id="descricao" class="form-control" rows="4" required></textarea>
+      </div>
+
+      <div class="mb-3">
+        <label for="data" class="form-label">Data e Hora</label>
+        <input type="datetime-local" id="data" class="form-control" required>
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="btn">Enviar Relato</button>
+      </div>
+    </form>
+  </section>
+
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item">
+        <a href="./index.html" class="px-2">Início</a>
+      </li>
+      <li class="nav-item">
+        <a href="" class="px-2">Criaturas</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="px-2">Táticas</a>
+      </li>
+      <li class="nav-item">
+        <a href="./recursos.html" class="px-2">Recursos</a>
+      </li>
+      <li class="nav-item">
+        <a href="./relatar.html" class="px-2">Relatar</a>
+      </li>
+    </ul>
+    <p class="text-center">© 2025 Protocolo 45 - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script></body>
+</html>
+
+
+
+
+RECURSOS HTML
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recursos - Protocolo 45</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+
+
+</style>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Protocolo 45</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="criaturas.html">Criaturas</a></li>
+          <li class="nav-item"><a class="nav-link" href="taticas.html">Táticas</a></li>
+          <li class="nav-item"><a class="nav-link" href="recursos.html">Recursos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="relatar.html">Relatar</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<section class="container my-5">
+  <h1 class="text-center mb-4 text-danger">🗺️Mapas e Refúgios Conhecidos🗺️</h1>
+  <p class="text-center text-light fst-italic mb-5">“Últimas transmissões confirmadas antes da queda total de rede. Verifique os níveis de segurança antes de partir.”</p>
+
+  <ul class="list-group">
+    <li class="list-group-item bg-dark text-light border-danger">
+      <strong>Posto Aurora</strong> — Montanhas do Sul<br>
+      <small>Coordenadas: 38°12'N, 71°45'W</small><br>
+      Nível: <span class="badge bg-success">Alto</span>
+      <p>Base subterrânea mantida por antigos engenheiros. Possui energia solar e purificadores de ar.</p>
+    </li>
+
+    <li class="list-group-item bg-dark text-light border-warning">
+      <strong>Refúgio K-9</strong> — Zonas costeiras<br>
+      <small>Coordenadas: 22°09'N, 43°17'W</small><br>
+      Nível: <span class="badge bg-warning">Médio</span>
+      <p>Comunidade isolada em plataformas marítimas. Perigo constante de tempestades e ataques noturnos.</p>
+    </li>
+
+    <li class="list-group-item bg-dark text-light border-danger">
+      <strong>Bunker Helix</strong> — Subterrâneos do Setor Norte<br>
+      <small>Coordenadas: 51°08'N, 60°45'W</small><br>
+      Nível: <span class="badge bg-danger">Baixo</span>
+      <p>Estrutura antiga. Abandonada, mas ainda há suprimentos. Risco alto de infestação Vácua.</p>
+    </li>
+
+    <li class="list-group-item bg-dark text-light border-warning">
+      <strong>Refúgio Zênite</strong> — Cordilheira Leste<br>
+      <small>Coordenadas: 35°42'N, 40°22'W</small><br>
+      Nível: <span class="badge bg-warning">Médio</span>
+      <p>Operação de resgate parcialmente ativa. Comunicações intermitentes. Evite à noite.</p>
+    </li>
+
+    <li class="list-group-item bg-dark text-light border-success">
+      <strong>Base Solaris</strong> — Deserto Vermelho<br>
+      <small>Coordenadas: 18°23'S, 50°02'W</small><br>
+      Nível: <span class="badge bg-success">Alto</span>
+      <p>Nova colônia solar. Defesas automáticas e poços de água profunda.</p>
+    </li>
+  </ul>
+</section>
+
+
+<footer class="py-3 my-4">
+  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="nav-item">
+      <a href="./index.html" class="px-2">Início</a>
+    </li>
+    <li class="nav-item">
+      <a href="" class="px-2">Criaturas</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="px-2">Táticas</a>
+    </li>
+    <li class="nav-item">
+      <a href="./recursos.html" class="px-2">Recursos</a>
+    </li>
+    <li class="nav-item">
+      <a href="./relatar.html" class="px-2">Relatar</a>
+    </li>
+  </ul>
+  <p class="text-center">© 2025 Protocolo 45 - Todos os direitos reservados</p>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+CSS
+
+body {
+  background-color: #0f0f0f;
+  color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  color: red;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.navbar {
+  background-color: #e0dede;
+  border-bottom: 2px solid red;
+}
+.navbar a {
+  color: rgb(211, 13, 13);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.card {
+  background-color: #efedf1;
+  border: 1px solid #e1c6f5;
+  transition: 0.3s;
+  color: #12021f;
+}
+.card:hover {
+  border-color: #cc81f1;
+  transform: scale(1.03);
+}
+.btn {
+  color: white;
+  background-color: black;
+  border: 2px solid red;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.btn:hover {
+  color: white;
+  background-color: red;
+}
+.list-group-item {
+  background-color: #f5f0fa;
+  border: 1px solid #e1c6f5;
+  color: #4a355a;
+}
+.list-group-item:hover {
+  background-color: #efe2fa;
+  border-color: #f00b0b;
+}
+form {
+  background-color: #dddcdd;
+  border: 1px solid #030303;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(212, 164, 236, 0.3);
+}
+form label {
+  color: #0c0c0c;
+  font-weight: bold;
+}
+form input,
+form select,
+form textarea {
+  background-color: #ffffff;
+  color: #3b3b3b;
+  border: 1px solid #0c0c0c;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+footer {
+  color: white;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
