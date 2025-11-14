@@ -188,5 +188,6 @@ Seus dados podem salvar vidas.
 - **Tipo de criatura**
 - **Descrição detalhada do ocorrido**
 - **Data e hora do evento**
+- **Foto (Opcional)**
 
 ---
