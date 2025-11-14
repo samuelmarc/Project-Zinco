@@ -8,7 +8,7 @@ Ano 2045. Um evento chamado “*A falha”* dizimou grande parte das cidades. Cr
 
 [— Ver conteúdo criativo](https://github.com/samuelmarc/Project-Zinco/blob/master/docs/creative-content.md)
 ---
-[— Acessar o projeto](https://samuelmarc.github.io/Project-Zinco/index.html)
+[— Acessar o site](https://project-zinco.netlify.app)
 ---
 [— Kanban](https://trello.com/invite/b/69167634b7bb2e4709ae63cd/ATTI4aa2f49dbd2f8928d93a18a7b8822eda6AE81666/project-zinco)
 ---
