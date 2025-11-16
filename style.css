@@ -9,3 +9,23 @@ body {
     margin-left: -1rem;
     transition: all 0.3s ease;
 }
+
+.hero-section {
+    background-image: url('./assets/imgs/hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+
+.hero-image-filter {
+    background: linear-gradient(135deg, rgba(255, 193, 7, 0.15), rgba(0, 0, 0, 0.85));
+    filter: brightness(0.1);
+}
+
+.tatica-img {
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
